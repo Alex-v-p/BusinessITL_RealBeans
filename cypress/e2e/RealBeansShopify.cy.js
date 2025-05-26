@@ -12,7 +12,7 @@ describe('HomePage', () => {
         cy.visit('https://r0989526-realbeans.myshopify.com/')
         cy.get('input[name="password"]').type('rickee');
         cy.get('button[type="submit"]').click();
-        cy.wait(500);
+        cy.wait(1000);
     });
 
 
